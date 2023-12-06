@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.mainBody {
+    height: 120vh;
+}
+
+.mainHeading {
+    font-size: 10vh;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+
+.description {
+    font-size: 5vh;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+
+.themeButton {
+    font-size: 2.5vh;
+    border-radius: 5px;
+    margin: 1vh;
+    padding: 1vh;
+    background-color: inherit;
+    color: inherit;
+    border: 2px solid;
+    height: fit-content;
+
+
+}
+
+.kalvium {
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 1vh;
+    padding: 1vh;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.resultbutton {
+    font-size: 3vh;
+    border-radius: 5px;
+    margin: 2vh;
+    padding: 1vh;
+    background-color: inherit;
+    color: inherit;
+    border: 2px solid;
+    height: fit-content;
+}
+
+.themeButton:hover,
+.HighButton:hover,
+.resultbutton:hover {
+    box-shadow: 3px 3px;
+    cursor: pointer;
+}
+
+.option:hover {
+    box-shadow: 5px 5px 5px;
+    cursor: pointer;
+}
+
+.option {
+    margin: 1.5% 8%;
+    padding: 5px;
+    font-size: 2.5vh;
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+.question {
+    margin: 0 8%;
+    padding: 5px;
+    font-size: 6vh;
+    border-radius: 30px;
+}
+
+.HighButton {
+    background-color: inherit;
+    color: inherit;
+    border: 2px solid;
+    font-size: 2.3vh;
+    border-radius: 5px;
+    margin: 10px 20px;
+    padding: 1vh;
+}
+
+.HighButtonDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.Result {
+
+    font-size: 15vh;
+    font-family: 'Lobster', sans-serif;
+    font-weight: lighter;
+}
+
+.outOfQuestion {
+    font-size: 4vh;
+}
+
+.questionBox {
+    border: 3px solid;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 30px;
+    box-shadow: 4px 4px;
+}
+
+.resultBox {
+    border: 2px solid;
+    margin: 5% 6%;
+    padding: 1%;
+    border-radius: 30px;
+    box-shadow: 4px 4px;
+}
